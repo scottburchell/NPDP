@@ -1,0 +1,869 @@
+
+<style type="text/css">
+/*
+	== RTT CSS detail ==
+	BURL : print-shop
+	Page : 
+	== RTT CSS detail ==
+*/
+
+#nashoo {
+}
+
+body {
+	behavior: url("/UserMods/csshover.htc");
+}
+
+.centrealign_split { /* duplicate on normal stylesheets */
+	width: 100%px;
+	padding-top: 20px;
+	Padding-left: 20px;
+	margin: unset;
+}
+
+.verde {
+	float: left;
+	color: #999;
+	font: Montserrat 9px bold;
+	height: 60px;
+	width: 303px
+}
+
+
+.headerbar { /*contains the banner*/
+	background-image: url(/public/images/headerbar.gif);
+	background-repeat: no-repeat;
+	width: 1500px;
+	height: 90px;
+}
+
+#headstyle { /*contains the banner*/
+	width: 1000px;
+		background-color: #fff
+}
+
+
+ul#navivert {
+	list-style-type: none;
+	padding: 0px;
+	width: 100%;
+	margin: 0 auto 0 auto/**/;
+	/*;100%*/
+	
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	/*background: #fff;c5014c*/
+	text-align: center;
+float: left;
+}
+
+#headzupsock {
+	width: 1000px;
+	background: #f00;
+	/*margin:0;c5014c*/
+	display: block;
+	margin: 0;
+	border: 0;
+}
+
+
+	
+	/*
+	start tabs styles section ==================================================
+	*/
+	
+		ul#navivert li a {
+		/* --- HTML COLOURS----*/
+			float: left;
+			width: 142px;
+			background-position: top;
+			padding: 0;/**/
+			height: 28px;
+			text-decoration: none;
+			display: block;
+			text-align: center;
+			border-right: 1px solid #fff;
+			color: #ffffff;
+			background: #000000;
+		}
+
+		ul#navivert li a:hover {
+			color: #000000;
+			background: #36b5cd;
+		}
+	
+	
+	
+
+
+	hr.dotline {
+		color: #000000;
+		background-color: #000000;
+		border-top: 3px dotted #000000;
+		margin-right: 0px;
+		margin-left: 0px;
+		border: none 0; 
+		height: 3px;
+		}
+
+	hr.blockline {
+		color: #f0f0f0;
+		background-color: #f0f0f0;
+		border-top: 3px solid #f0f0f0;
+		margin: 6px 0;
+		border: none 0;
+		height: 3px;
+	}
+
+	.small10pxDiv {
+		width: 1000px; 
+		border: #000000 solid 2px;
+		font-family:verdana,arial,helvetica,sans-serif;
+		color:#000000;
+		font-size:10px; 
+		text-align: left;
+		background: #fafafa;
+	}
+
+
+	.botlinks p {
+		padding: 3px 0;
+		margin: 0;
+		color: #333;
+	} /* the lower link bar */
+
+
+
+	.stepsPlain {
+		text-align: left;
+		color:#ffffff;
+		background-color : #000000;
+		font: 11px arial,helvetica,sans-serif;
+		font-weight: bold;
+		background-repeat: no-repeat;
+		background-position: right center;
+		background-image: url(/public/images/steps_arrow_inv.gif);
+		width: 25%;
+		margin: 10px 0 10px 0;
+	}
+	.stepsHighlight {
+		text-align: left;
+		background-color : #36b5cd;
+		background-repeat: no-repeat;
+		background-position: right center;
+		background-image: url(/public/images/steps_arrow.gif);
+		color:#000000;
+		font: 11px arial,helvetica,sans-serif;
+		font-weight: bold;
+		margin: 10px 0 10px 0;
+		width: 25%;
+	}
+
+	.stepsPlain p{
+		padding: 0 0 0 28px;
+		margin: 10px 0;
+		color:#ffffff;
+	}
+
+	.stepsHighlight p{
+		padding: 0 0 0 28px;
+		margin: 10px 0; 
+		color:#000000;
+	}
+
+	.bgmed {background-color : #36b5cd; color:#000000; font: 13px arial,helvetica,sans-serif; font-weight: bold; padding: 4px}
+	.bgmed a {color:#000000; text-decoration: underline}/* nashoo 29/07/09 added to see if it will fix!... */
+	.bgmed a:hover {color:#000000; text-decoration: none}/* nashoo 29/07/09 added to see if it will fix!... */
+	.bgmed2 {background-color : #36b5cd; color:#000000; font: 13px arial,helvetica,sans-serif; font-weight: bold}
+	.bgmed td { padding: 4px 2px 4px 4px }
+	.bgmed > select { background-color: inherit; border: 2px solid; border-radius: 4px; }
+	.bglight {background-color : #000000; padding: 4px 8px; color:#ffffff }
+	.bglight td { padding: 4px 2px 4px 4px} 
+	.bgcanv {background-color : #fff; padding: 4px} /* the usually whice cells in a table*/
+	.bgcanv td { padding: 4px 2px 4px 4px ; background-color: inherit; }
+	.frameitem {
+		background: #fff;
+		border: 2px solid #ccc ; /*was subConfig_liCol */
+	}
+	.orderlistheading {/*orderlistheading is on the list order page*/
+		color: #000;
+		font-weight: bold;
+		background-color: #000000;
+		padding: 9px
+	}
+
+	.gdprbackground {background-color : #36b5cd;  padding: 4px 8px;  color:#000000; }
+	.gdprbackground a {color:#000000; text-decoration: underline}/* nashoo 29/07/09 added to see if it will fix!... */
+	.gdprbackground a:hover {color:#000000; text-decoration: none}/* nashoo 29/07/09 added to see if it will fix!... */
+
+	/*
+	start tabs styles section ==================================================
+	*/
+
+	
+		/* NO GRAPHICS */
+		div#consolenormal /* the container for the info console */
+		{
+			height: 34px;
+			width: 1000px;
+			display: block;/*none; */
+			margin: 8px auto;
+		}
+
+		div#consolecredit /* the container for the info console */
+		{
+			height: 34px;
+			width: 1000px;
+			display: block;/*none; */
+			margin: 8px auto;
+		}
+		#searchcell {/**/
+			text-align: left;
+			width: 150px;
+			margin: 7px 0 0 0;
+			padding: 0;
+			float: left;
+		}
+
+		#projectscell {
+			text-align: left;
+			width: 226px;
+			margin: 7px 0 0 0;
+			float: left;
+		}
+		#projectscell p{
+			margin: 0 8px;
+		}
+		#basketcell {
+			text-align: left;
+			width: 150px;
+			margin: 7px 0 0 0;
+			float: left;
+		}
+		#basketcell p{
+			margin: 0 8px;
+		}
+		#balancecell {
+			text-align: left;
+			width: 226px;
+			margin: 7px 0 0 0;
+			float: left;
+		}
+		#balancecell p{
+			margin: 0 8px;
+		}
+
+		#helpcell {
+			width: 98px;
+			margin: 7px 0 0 0;
+			float: left
+		}
+
+		#helpcell p{
+			padding: 0 0 0 35px;
+			margin: 0
+		}
+
+		#searchcell2 {
+			width: 150px;
+			margin: 7px 0 0 0;
+			float: left;
+			text-align: left;
+		}
+		#projectscell2 {
+			text-align: left;
+			width: 180px;
+			margin: 7px 0 0 0;
+			float: left;
+		}
+		#projectscell2 p{
+			margin: 0 8px;
+		}
+		#basketcell2 {
+			text-align: left;
+			width: 150px;
+			margin: 7px 0 0 0;
+			float: left;
+		}
+		#basketcell2 p{
+			margin: 0 8px;
+		}
+		#balancecell2 {
+			text-align: left;
+			width: 140px;
+			margin: 7px 0 0 0;
+			float: left;
+		}
+		#balancecell2 p{
+			margin: 0 8px;
+		}
+		#creditcell2 {
+			text-align: left;
+			width: 120px;
+			margin: 7px 0 0 0;
+			float: left;
+		}
+		#creditcell2 p{
+			margin: 0 8px;
+		}
+	
+
+	.invoiceback {
+		background-image: url(\2F public\2F images\2F order_exec_bk.gif);
+		width: 515px;
+		height: 304px;
+	}
+	.paymentbox {
+		background-image: url(\2F public\2F images\2F payboxbg.gif);
+		width: 363px;
+		height: 110px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		float: right
+	}
+
+	.whitego {/* for all white emphasis on dark panels */
+		border: 2px solid #fff;
+		color: #ffffff;
+		background: #000000;
+	}
+
+	.orderarray { /* unified from above 3 */
+		float: left;
+		height: 46px;
+		width: 303px;
+		background: url(\2F public\2F images\2F orderboxbak.gif) repeat-x left bottom;/**/
+		border: 1px solid #d4d1cc
+	}
+
+	/* toggling visibility bit edit print page*/
+
+	.visible {
+		display: block
+	}
+
+	.invisible {
+		display: none
+	}
+	/*************************************************************************************************************************/
+	/*                                          controlling the edit print page                                              */
+	/*************************************************************************************************************************/
+
+	/* ------------------------------------------ */
+	/*       Width controls for edit print        */
+	/* ------------------------------------------ */ 
+
+	.brandboxshell {
+	border: 2px solid #f0f0f0; background: #f0f0f0;
+	/*border: 2px solid #< %subConfig_liCol%>; background: #< %subConfig_liCol%>;This is the piping and box that fit the panels*/ 
+	/*border: 2px solid #e2e2e2; background: #e2e2e2*/
+	}
+
+	.brandboxshell h2 {
+	font-size: 18px;
+	margin: 13px 8px;
+	font-weight: bold;
+	padding: 0;
+
+	/*padding: 6px 12px; margin: 0;
+	font-size: 18px;
+	font-weight: 600*/
+	}
+
+
+	#leftCol{ /* Controls the width of the left side of the page (change if reducing the controls on the left side) was 470 orign 500*/
+		background: #fff; 
+		width: 502px;
+		float: left;
+	}
+
+	#rightcol { /* Controls the width of the right side of the page (change if reducing the controls on the left side) was 400 orign 470*/
+		width: 488px;
+		float: left;
+	}
+
+	#eppreview {   /* this width contols the preview box width (Not the image though) */
+	width: 498px;
+	/*margin-bottom: 10px;*/
+	}
+
+	#previewDiv, .previewTable{ /* this width controls the preview image (should be less then the eppreview figure above */
+		width: 482px;
+	}
+
+	#eppages{ /* this width controls the pages element */
+		width: 498px;
+	}
+
+	#epnotes, .epnotes{ /* this width controls the notes element */
+	width: 498px;
+	}
+
+
+	#epconfig, #epconfigimage, #epdirectmail, #epworkflow, #eptotal { /* Sets the space between the left and right columns on the edit print page*/
+		margin-left: 0px; 
+	}
+
+
+	#epconfig, .epconfig { /* this width controls the config element */
+		width: 484px; /* Max should be 490px min 276-280px */
+	}
+	
+	
+	
+/* nashoo apr 09 needs implementing! *//* nashoo apr 09 needs implementing! *//* nashoo apr 09 needs implementing! *//* nashoo apr 09 needs implementing! *//* nashoo apr 09 needs implementing! */
+	#epconfigimageinner, .epconfigimageinner { /* nashoo apr 09 needs implementing! */
+		width: 484px; 
+	}
+/* nashoo apr 09 needs implementing! *//* nashoo apr 09 needs implementing! *//* nashoo apr 09 needs implementing! *//* nashoo apr 09 needs implementing! *//* nashoo apr 09 needs implementing! */
+
+
+	
+	#epconfigimage, .epconfigimage { /* this width controls the config element */
+		width: 488px; /* Max should be 490px min 276-280px */
+	}
+
+	#epdirectmail, .epdirectmail { /* this width controls the totals element */
+		width: 488px; /* Max should be 490px */
+	}
+
+	#epworkflow, .epworkflow { /* this width controls the totals element */
+		width: 488px; /* Max should be 490px */
+	}
+
+	#eptotal, .eptotal { /* this width controls the totals element */
+		width: 488px; /* Max should be 490px */
+	}
+
+
+	/* ------------------------------------------ */
+	/*    properties for the edit print items     */
+	/* ------------------------------------------ */ 
+
+	.boxtoggle {
+		float: right;
+		position: relative;
+		top: 20px;
+		clear: both;
+		padding: 0px 0 8px 0;
+		text-align: center;
+		background: url('/public/images/edit_print_tab.gif') top no-repeat;
+		width: 32px;
+		display: block;/**/
+		}
+
+	.boxtoggle span {
+		font-family: "Arial Black", verdana, arial; font-size: 15px;font-weight: bolder; color: #a7a7a7; padding: 0px
+	}
+
+
+	.previewTable{ /* previewTable is used to contain the preview image and creates the shadow effect (also shares some values with frameitem) */ 
+		text-align: center; 
+		margin: auto;
+		padding: 2px;
+	}
+
+	#previewDiv {/* previewDiv is used to correctly space the eppreview */
+		border-style:none;
+		border-color:#cccccc;
+		background-color:#fff;
+		position:relative; 
+		left:1px; 
+		top:1px; 
+		/*margin-right: 2px; */
+	}
+
+	#eppreview { /* used to control the Preview part of the edit print page */
+		background-color: #f0f0f0;
+		clear: both;
+	}
+
+	#eppages { /* sets the properties of the configuation box within the edit_print page */
+		background-color: #f0f0f0;
+		clear: both;
+
+	}
+
+	#epnotes{ /* sets the properties of the notes box within the edit_print page */
+		background-color: #f0f0f0;
+		clear: both;
+	}
+
+	#epconfig { /* sets the properties of the configuation box within the edit_print page */
+		background-color:#f0f0f0;
+		clear: both;
+	}
+
+	#epconfigimageinner, .epconfigimageinner { /* sets the properties of the configuation box within the edit_print page */
+		background-color:#f0f0f0;
+		clear: both;
+	}
+	#epconfigimage  , .epconfigimage { /* sets the properties of the configuation box within the edit_print page */
+		background-color:#f0f0f0;
+		clear: both;
+	}
+
+	.ep_totaltitle {
+		background: #36b5cd;
+		font: 13px arial,helvetica,sans-serif; 
+		font-weight: bold; padding: 4px;
+	}
+
+	#eptotal { /* sets the properties to the totals box within the edit print page */
+		background-color:#000000;
+		clear: both;	
+	}
+
+	.eptotal { /* sets the properties to the totals box within the edit print page */
+		background-color:#000000;
+		clear: both;	
+	}
+	
+	.epNextStepText {
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		color: #ffffff;
+		font-size: 16px
+	}
+
+	
+	/*-----------------------------------------------------------------------------------------------------------------------*/
+	/*-----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+	/*************************************************************************************************************************/
+	/*                                          Controlling the Edit My Details page                                         */
+	/*************************************************************************************************************************/
+
+	/* ------------------------------------------ */
+	/*  Width controls for edit my details page   */
+	/* ------------------------------------------ */
+
+	#emdContainer{
+	    width: 60%;
+	}
+
+	#emdBilling, #emdContactDetails{
+	   width: 50%;
+	}
+
+	#emdDelivery, #emdMiscDetails{
+	    width: 50%;
+	}
+
+	#emdHeader, #emdHR, #emdMailingList, #emdDescription, #emdContact, #emdSaveButton, #emdOptIn{
+	  width: 100%;
+	}
+
+	/* ------------------------------------------ */
+	/*        properties for edit details         */
+	/* ------------------------------------------ */
+
+	#emdHeader{ /* the "my details, username" page header */
+	  vertical-align: top;  
+	}
+
+	#emdHR{ /* the horisontal rules used in the page */
+	    padding: 2px;
+	}
+
+	#emdDescription{ /* a descripion of the requirments for the page, i.e "enter details below" */
+	    padding: 2px;
+	}
+
+	#emdBilling{
+	   float:left;
+	} 
+
+	#emdBillingTitle{
+		width: 100%;
+		height: 19px;
+		font: 13px arial,helvetica,sans-serif; 
+		font-weight: bold;
+		color:#000000;
+		background-color: #36b5cd; 
+		height: 22px;
+		padding-top: 7px;
+		padding-left: 7px;
+	}
+
+	#emdBillingDetails{
+		width: 100%;
+		float:left;
+	 }
+
+	#emdDelivery{
+		float: left;
+	}
+
+	#emdDeliveryTitle{
+		float: left;
+		font: 13px arial,helvetica,sans-serif; 
+		font-weight: bold;
+		color:#000000;
+		background-color: #36b5cd;
+		height: 22px;
+		padding-top: 7px;
+		padding-left: 7px;
+		width: 100%;
+	}
+
+	#emdDeliveryCopy{
+		float: left;
+		font: 11px arial,helvetica,sans-serif; 
+		/*font-weight: bold;*/
+		height: 27px;
+		padding-top: 2px;
+		padding-left: 7px;
+		width: 100%;
+	}
+
+	#emdDeliveryDetails{
+		width:100%;
+		float: left;
+		background-color:White; 
+	}
+
+	#emdContact{
+		float: left;
+	}
+
+	#emdContactTitle{
+		width: 100%;
+		height: 19px;
+		font: 13px arial,helvetica,sans-serif; 
+		font-weight: bold;
+		color:#000000;
+		background-color: #36b5cd; 
+		height: 22px;
+		padding-top: 7px;
+		padding-left: 7px;
+	}
+
+	#emdContactDetails{
+		float: left;
+	}
+
+	#emdMiscDetails{
+		float: left;
+	}
+
+	#emdSaveButton{ /* the div containing the save button */
+		padding-top: 7px;
+		padding-bottom: 7px;
+		float: left;
+	}
+
+	#emdOptIn{
+		float: left;
+		background-color : #000000;  
+		margin-top: 5px;
+	}
+
+	#emdOptInDetails{
+		padding: 7px;
+		color:#ffffff;
+	}
+
+
+	/*-----------------------------------------------------------------------------------------------------------------------*/
+	/*-----------------------------------------------------------------------------------------------------------------------*/
+
+
+	/*************************************************************************************************************************/
+	/*                                          Controlling the Signoff_Single page                                          */
+	/*************************************************************************************************************************/
+
+	/* ------------------------------------------ */
+	/*   Width controls for signoff_single page   */
+	/* ------------------------------------------ */
+
+	#Container{ /* controls the width of the page */
+	    width: 100%;
+	}
+	.previewContainer{ /* controls the window of the image preview */ 
+	    width: 95%;
+	 }
+	/* ------------------------------------------ */
+	/*        properties for edit details         */
+	/* ------------------------------------------ */
+
+	.previewContainer{
+		border-style:none; 
+		border-color:#CCCCCC; 
+		background-color:#FFFFFF;
+		margin:auto;
+		padding-top: 20px; 
+		padding-bottom: 5px;
+		overflow:auto;
+		z-index:1;
+	}
+
+	/*-----------------------------------------------------------------------------------------------------------------------*/
+	/*-----------------------------------------------------------------------------------------------------------------------*/
+	/*New styles Mar 09*/
+		a {
+		color: #36b5cd;
+		text-decoration: none;
+	}
+	
+
+a:hover {
+		color: #3493a5;
+}
+
+.loginbox A {
+	color:#36b5cd;
+	text-decoration: none
+}
+
+	.displayboxheading {
+	background-color : #000000; 
+	color:#ffffff; 
+	font: 13px arial,helvetica,sans-serif; 
+	font-weight: bold; 
+	padding: 4px
+	}
+	
+	.displayboxbody {/**/
+	background-color : #dedede;
+	color:#333333 ; 
+	/*background-color : #441166;
+	color: #fff ; 
+	background-color : #< %subConfig_liCol%>;
+	color: #< %subConfig_textNavCol%>; */
+	padding: 4px 8px; 
+	}
+	.alphabutton a:hover {/*color: #< %subConfig_alphatexthover%>;*/ color: #ffffff; text-decoration: none}/*changed*/
+	.alphabutton {padding: 2px; margin-bottom:10px; }
+	.alphabutton a {color: #ffffff; background: transparent url(\2F public\2F presets\2F buttons\2F alpha_left.gif) 0 0 no-repeat; font-size: 12px; font-weight: bold; margin-right: 8px; padding: 3px 0 9px 15px; text-decoration: none;}
+	.alphabutton a span { background: transparent url(\2F public\2F presets\2F buttons\2F alpha_right.gif) top right no-repeat; padding: 3px 24px 9px 9px; }
+
+	.betabutton a:hover {/*color: #< %subConfig_betatexthover%>;*/ color: #36b5cd; text-decoration: none}/*changed*/
+	.betabutton {padding: 2px; margin-bottom:10px;}
+	.betabutton a { color: #000000; background: transparent url(\2F public\2F presets\2F buttons\2F beta_left.gif) 0 0 no-repeat; font-size: 12px; font-weight: bold; margin-right: 8px; padding: 3px 0 9px 15px;text-decoration: none;}
+	.betabutton a span { background: transparent url(\2F public\2F presets\2F buttons\2F beta_right.gif) top right no-repeat; padding: 3px 24px 9px 9px; }
+
+	.gammabutton a:hover {/*color: #< %subConfig_gammatexthover%>;*/ color: #36b5cd; text-decoration: none}/*changed*/
+	.gammabutton {padding: 2px; margin-bottom:10px;}
+
+	.gammabutton a { /*color: #< %subConfig_gammatextnormal%>;*/ color: #000000; background: transparent url(\2F public\2F presets\2F buttons\2F gamma_left.gif) 0 0 no-repeat; font-size: 12px; font-weight: bold; margin-right: 8px; padding: 3px 0 9px 15px;text-decoration: none;}
+
+	.gammabutton a span { background: transparent url(\2F public\2F presets\2F buttons\2F gamma_right.gif) top right no-repeat; padding: 3px 24px 9px 9px; }
+	/*what is going on*/
+	.htmlbutton a:hover { color: #000000;background-color: #36b5cd; text-decoration: none; }
+	.htmlbutton { padding: 0; margin: 0px; border: 0; width: 100%; }
+	.htmlbutton a { color: #ffffff; background-color: #000000;display: block; padding: 15px 0 15px 0; font-weight: bold; font-size: 16px; text-decoration: none; width: 100%; }
+	.htmlbutton A SPAN { padding: 5px 25px 6px 15px; }
+
+	.botlinksbot p a {
+	font-size: 11px;
+/*color: #< %subConfig_alinknormal%>;*/
+		color: #660099;		
+		text-decoration: none
+	} /* the lower link bar */
+	.botlinksbot p a:hover {
+/*color: #< %subConfig_alinkhover%>;*/
+		color: #d1b2e0;
+				text-decoration: underline
+	} /* the lower link bar */
+	
+div.paycc {
+	background-image: url(\2F public\2F images\2F paycc.gif);
+	width: 363px;
+	height: 145px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: left;
+	line-height: 130%;
+	padding: 0px;
+	color: #fff;
+	float: right
+}
+.paycc p {
+	padding: 40px 10px 10px 10px;
+	color: #fff
+}
+
+/* imlib nav */
+
+#navlist
+{
+/*padding: 3px 0;*/
+	margin-left: 0;
+	float: left;
+	padding: 0px;
+	width: 1000px;
+	margin: 0 auto 0 auto;
+list-style: none;
+
+/*border-bottom: 1px solid #EscapeOutputForXSS(Session("subConfig_liCol"),"S");
+font: bold 12px Verdana, sans-serif;*/
+}
+
+#navlist li
+{
+display: inline
+}
+
+#navlist li a
+{
+display: block;
+height: 28px;
+width: 199px;
+/*padding: 3px 0.5em;*/
+border-right: 1px solid #fff;
+border-bottom: none;
+background: #000000;
+text-decoration: none;
+text-align: center;
+float: left
+}
+
+ul#navlist li a span
+{
+	margin: 5px 0 0 0;
+	display: block;/**/
+	padding: 0;
+}
+
+
+#navlist li a:link { color: #ffffff; }
+#navlist li a:visited { color: #ffffff; }
+
+#navlist li a:hover
+{
+color: #000000;
+background: #36b5cd;
+}
+
+#navlist li a#current
+{
+color: #000000;
+background:#36b5cd;
+border-bottom: 1px solid white;
+}
+
+.mimtitle { /* image library subheadings */
+color: #36b5cd; 
+padding: 6px 1px; margin: 0
+ }
+
+.leanModalContainer {
+	border-color: #000000;
+}
+
+.modalShell {
+	border-color: #dedede;
+	background-color: #dedede;
+}
+
+.policyview{
+	color:inherit !important;
+}
+</style>
+
